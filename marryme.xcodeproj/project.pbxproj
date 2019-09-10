@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559020142322B78C00A20FF5 /* dingdong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 559020132322B78C00A20FF5 /* dingdong.wav */; };
+		5598ADA122F1AE2600E0E625 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598ADA022F1AE2600E0E625 /* Question.swift */; };
+		5598ADA322F1F44D00E0E625 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598ADA222F1F44D00E0E625 /* HomeViewController.swift */; };
+		55C54E69231FB9DB0092D23F /* Start.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55C54E68231FB9DB0092D23F /* Start.mp4 */; };
+		55C54E6B231FBF930092D23F /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55C54E6A231FBF920092D23F /* 6.mp3 */; };
+		55C54E6D2320F7CE0092D23F /* 最熟悉的陌生人.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55C54E6C2320F7CE0092D23F /* 最熟悉的陌生人.mp4 */; };
+		55C54E6F2320F7E00092D23F /* 今天你要嫁給我.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55C54E6E2320F7E00092D23F /* 今天你要嫁給我.mp4 */; };
+		55E045C622F19CB9005A6454 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55E045C522F19CB9005A6454 /* crayon_1-1.ttf */; };
+		55F617AD22EB33640000E217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F617AC22EB33640000E217 /* AppDelegate.swift */; };
+		55F617AF22EB33640000E217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F617AE22EB33640000E217 /* SceneDelegate.swift */; };
+		55F617B122EB33640000E217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F617B022EB33640000E217 /* ViewController.swift */; };
+		55F617B422EB33640000E217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F617B222EB33640000E217 /* Main.storyboard */; };
+		55F617B622EB33650000E217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F617B522EB33650000E217 /* Assets.xcassets */; };
+		55F617B922EB33650000E217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F617B722EB33650000E217 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		559020132322B78C00A20FF5 /* dingdong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingdong.wav; sourceTree = "<group>"; };
+		5598ADA022F1AE2600E0E625 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5598ADA222F1F44D00E0E625 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		55C54E68231FB9DB0092D23F /* Start.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Start.mp4; sourceTree = "<group>"; };
+		55C54E6A231FBF920092D23F /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		55C54E6C2320F7CE0092D23F /* 最熟悉的陌生人.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最熟悉的陌生人.mp4"; sourceTree = "<group>"; };
+		55C54E6E2320F7E00092D23F /* 今天你要嫁給我.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "今天你要嫁給我.mp4"; sourceTree = "<group>"; };
+		55E045C522F19CB9005A6454 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		55F617A922EB33640000E217 /* marryme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marryme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F617AC22EB33640000E217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F617AE22EB33640000E217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55F617B022EB33640000E217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55F617B322EB33640000E217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F617B522EB33650000E217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F617B822EB33650000E217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F617BA22EB33650000E217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F617A622EB33640000E217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F617A022EB33640000E217 = {
+			isa = PBXGroup;
+			children = (
+				55F617AB22EB33640000E217 /* marryme */,
+				55F617AA22EB33640000E217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F617AA22EB33640000E217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F617A922EB33640000E217 /* marryme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F617AB22EB33640000E217 /* marryme */ = {
+			isa = PBXGroup;
+			children = (
+				55F617AC22EB33640000E217 /* AppDelegate.swift */,
+				55F617AE22EB33640000E217 /* SceneDelegate.swift */,
+				55E045C522F19CB9005A6454 /* crayon_1-1.ttf */,
+				55C54E6E2320F7E00092D23F /* 今天你要嫁給我.mp4 */,
+				55C54E68231FB9DB0092D23F /* Start.mp4 */,
+				55F617B022EB33640000E217 /* ViewController.swift */,
+				55C54E6C2320F7CE0092D23F /* 最熟悉的陌生人.mp4 */,
+				559020132322B78C00A20FF5 /* dingdong.wav */,
+				55C54E6A231FBF920092D23F /* 6.mp3 */,
+				5598ADA022F1AE2600E0E625 /* Question.swift */,
+				55F617B222EB33640000E217 /* Main.storyboard */,
+				5598ADA222F1F44D00E0E625 /* HomeViewController.swift */,
+				55F617B522EB33650000E217 /* Assets.xcassets */,
+				55F617B722EB33650000E217 /* LaunchScreen.storyboard */,
+				55F617BA22EB33650000E217 /* Info.plist */,
+			);
+			path = marryme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F617A822EB33640000E217 /* marryme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F617BD22EB33650000E217 /* Build configuration list for PBXNativeTarget "marryme" */;
+			buildPhases = (
+				55F617A522EB33640000E217 /* Sources */,
+				55F617A622EB33640000E217 /* Frameworks */,
+				55F617A722EB33640000E217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marryme;
+			productName = marryme;
+			productReference = 55F617A922EB33640000E217 /* marryme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F617A122EB33640000E217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					55F617A822EB33640000E217 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 55F617A422EB33640000E217 /* Build configuration list for PBXProject "marryme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F617A022EB33640000E217;
+			productRefGroup = 55F617AA22EB33640000E217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F617A822EB33640000E217 /* marryme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F617A722EB33640000E217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E045C622F19CB9005A6454 /* crayon_1-1.ttf in Resources */,
+				55F617B922EB33650000E217 /* LaunchScreen.storyboard in Resources */,
+				55C54E69231FB9DB0092D23F /* Start.mp4 in Resources */,
+				55C54E6B231FBF930092D23F /* 6.mp3 in Resources */,
+				559020142322B78C00A20FF5 /* dingdong.wav in Resources */,
+				55F617B622EB33650000E217 /* Assets.xcassets in Resources */,
+				55F617B422EB33640000E217 /* Main.storyboard in Resources */,
+				55C54E6F2320F7E00092D23F /* 今天你要嫁給我.mp4 in Resources */,
+				55C54E6D2320F7CE0092D23F /* 最熟悉的陌生人.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F617A522EB33640000E217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5598ADA322F1F44D00E0E625 /* HomeViewController.swift in Sources */,
+				55F617B122EB33640000E217 /* ViewController.swift in Sources */,
+				5598ADA122F1AE2600E0E625 /* Question.swift in Sources */,
+				55F617AD22EB33640000E217 /* AppDelegate.swift in Sources */,
+				55F617AF22EB33640000E217 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55F617B222EB33640000E217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F617B322EB33640000E217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F617B722EB33650000E217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F617B822EB33650000E217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F617BB22EB33650000E217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F617BC22EB33650000E217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F617BE22EB33650000E217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5GH7PYS8K;
+				INFOPLIST_FILE = marryme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.marryme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55F617BF22EB33650000E217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5GH7PYS8K;
+				INFOPLIST_FILE = marryme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.marryme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F617A422EB33640000E217 /* Build configuration list for PBXProject "marryme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F617BB22EB33650000E217 /* Debug */,
+				55F617BC22EB33650000E217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F617BD22EB33650000E217 /* Build configuration list for PBXNativeTarget "marryme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F617BE22EB33650000E217 /* Debug */,
+				55F617BF22EB33650000E217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F617A122EB33640000E217 /* Project object */;
+}
